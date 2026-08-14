@@ -7,20 +7,50 @@
   gap: 24px;
 }
 
-.image.first {
+.payments .content-container .image-gallery .image.first {
   background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: cover;
 }
-.image.second {
+.payments .content-container .image-gallery .image.second {
   background: url(../img/gallery2-mobile.png) no-repeat;
   background-size: cover;
 }
-.image.thirdy {
+.payments .content-container .image-gallery .image.thirdy {
   background: url(../img/gallery3-mobile.png) no-repeat;
   background-size: cover;
 }
 .payments .image-gallery .colspan-2 {
   grid-column: span 2;
+}
+
+/*DESTINATIONS-PACKAGE*/
+.destinations-packages .content-container .text-content .content-title.price {
+  font-size: 40px;
+}
+.destinations-packages .content-container .text-content .content-text {
+  margin-bottom: 24px;
+}
+.destinations-packages .content-container .text-content a {
+  width: 312px;
+}
+.destinations-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/destinations/gallery1-mobile.png) no-repeat;
+  background-size: cover;
+}
+.destinations-packages.payments
+  .content-container
+  .image-gallery
+  .image.second {
+  background: url(../img/destinations/gallery2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.destinations-packages.payments
+  .content-container
+  .image-gallery
+  .image.image.thirdy {
+  background: url(../img/destinations/gallery3-mobile.png) no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,8 +66,33 @@
     background: url(../img/gallery3-tablet.png) no-repeat;
     background-size: cover;
   }
+  /*DESTINATIONS-PACKAGES*/
+  .destinations-packages .content-container .text-content a {
+    display: none;
+  }
+  .destinations-packages.payments
+    .content-container
+    .image-gallery
+    .image.first {
+    background: url(../img/destinations/gallery1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .destinations-packages.payments
+    .content-container
+    .image-gallery
+    .image.second {
+    background: url(../img/destinations/gallery2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .destinations-packages.payments
+    .content-container
+    .image-gallery
+    .image.image.thirdy {
+    background: url(../img/destinations/gallery3-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
     justify-content: space-between;
