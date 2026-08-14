@@ -23,14 +23,42 @@
 }
 
 /*DESTINATIONS*/
-.hero .destinations .hero-img{
-  background: url(../img/destinations/);
+.destinations.hero {
+  margin-bottom: 88px;
 }
+.destinations .hero-img {
+  background: url(../img/destinations/japan-bg-hero-mobile.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+.destinations .hero-content {
+  padding: 65px 24px;
+}
+.destinations .hero-content h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+.destinations .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.destinations .hero-content p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .hero h2 {
     padding: 88px 60px;
