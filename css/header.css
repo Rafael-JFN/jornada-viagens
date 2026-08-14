@@ -25,6 +25,9 @@
 .navigation-menu {
   margin-top: 24px;
 }
+.list-links li a.active {
+  text-decoration: underline;
+}
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
